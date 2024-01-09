@@ -6,7 +6,7 @@ function Designproduct() {
   return (
 
 
-    <div className='bg-blue-200 w-full'> 
+    <div className='bg-blue-200 w-full '> 
 
     <div className='w-full'>
     <h2 className='font-semibold text-blue-900 text-5xl mt-10 ml-10 flex '>

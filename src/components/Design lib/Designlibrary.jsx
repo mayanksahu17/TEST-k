@@ -30,17 +30,17 @@ function Designlibrary() {
       </div>
 
       {showUploadForm && (
-        <form className='uploadDiving h-40 w-96 border-2 rounded-2xl border-blue-500/100 ml-56 bg-transparent
+        <form className='uploadDiving h-40 w-[400px] border-2 rounded-2xl border-blue-500/100 ml-56 bg-transparent
          hover:bg-white'>
           <label htmlFor='imageInput' className='drop-container' id='dropcontainer'>
             <span className='drop-title text-3xl font-bold ml-24 text-blue-500 ' >Drop files here</span>
               <h1 className='mr-18 w-fulll h-8 font-bold text-center mt-4 text-blue-500 '>Or</h1>
             <div className='flex'>
-            <input type='file' id='imageInput' accept='image/*' className='w-32 mt-5 ml-7' required />
+            <input type='file' id='imageInput' accept='image/*' className=' w-52 mt-5 ml-7' required />
             <div className='btn-collectioninput-fs16 '>
             <button id='inputCancel'  onClick={getImageUrl} className='w-28 h-18 text-blue-500 font-bold text-center
              bg-white rounded-lg border-black border-r-blue-700 border-r-2 border-l-2 mt-5
-             border-t-2 border-b-2  ml-14 flex hover:bg-blue-700 hover:text-white'><h1 className='ml-3 mt-0'>Add image</h1></button>
+             border-t-2 border-b-2  ml-6 flex hover:bg-blue-700 hover:text-white'><h1 className='ml-3 mt-0'>Add image</h1></button>
           </div>
               </div>
           </label>
