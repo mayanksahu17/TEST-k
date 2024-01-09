@@ -8,6 +8,7 @@ function Editprofile() {
     <div>
   <h1 className=' font-bold mt-8 ml-7  text-blufont-cerebriSans text-5xl text-blue-900 '>Personal Detail</h1>
   <p className='ml-7 mt-1'>Dont forget to save your changes </p>
+  
   </div>
 
 <div className='flex justify-between w-[90%] mt-16 font-semibold '>
